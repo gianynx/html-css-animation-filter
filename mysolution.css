@@ -50,3 +50,25 @@
         opacity: 0;
     }
 }
+
+/*5° exercise*/
+
+.ex-5-square {
+    transition-property: width, height;
+}
+
+.ex-5-square:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.ex-5-square:active {
+    width: 40px;
+    height: 40px;
+}
+
+/*6° exercise*/
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
