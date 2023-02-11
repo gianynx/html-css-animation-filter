@@ -127,3 +127,19 @@
         transform: rotate(360deg);
     }
 }
+
+/*11° exercise*/
+
+.ex-11-icon:hover {
+    animation: animation11 3s linear;
+}
+@keyframes animation11 {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
