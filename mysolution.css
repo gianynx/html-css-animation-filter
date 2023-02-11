@@ -115,3 +115,15 @@
     border-radius: 40px;
     width: 100px;
 }
+
+/*10° exercise*/
+
+.ex-10-icon {
+    animation: animation10 2s linear infinite;
+}
+
+@keyframes animation10 {
+    0% {
+        transform: rotate(360deg);
+    }
+}
