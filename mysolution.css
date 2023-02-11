@@ -103,3 +103,15 @@
     filter: drop-shadow(10px 10px 10px black) invert(100%);
     border-radius: 40px;
 }
+
+/*9° exercise*/
+
+.ex-9-img {
+    transition: width 3s;
+}
+
+.ex-9-img:hover {
+    filter:contrast(200%) brightness(0.5);
+    border-radius: 40px;
+    width: 100px;
+}
